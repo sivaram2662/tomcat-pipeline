@@ -13,6 +13,7 @@ pipeline {
                 sh 'ssh root@172.31.36.149 "ls"'
                 sh 'ssh root@172.31.36.149 "cd tomcat9.0/"'
                 sh 'ssh root@172.31.36.149 "ls"'
+                sh 'ssh root@172.31.36.149 "cd tomcat9.0"'
                 // sh 'ssh root@172.31.36.149 "ls -ltrh"'
                 sh 'ssh root@172.31.36.149 "cd bin/"'
                 sh 'ssh root@172.31.36.149 "ls"'
