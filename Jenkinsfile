@@ -16,7 +16,7 @@ pipeline {
                 // sh 'ssh root@172.31.36.149 "cd bin"'
                 // sh 'ssh root@172.31.36.149 "ls"'
                 // sh 'ssh root@172.31.36.149 "chmod 755 *.sh"'
-                sh 'ssh root@172.31.36.149 "./ startup.sh"'
+                sh 'ssh root@172.31.36.149 "/ startup.sh"'
             }
         }
        
