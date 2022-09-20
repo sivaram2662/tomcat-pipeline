@@ -7,3 +7,4 @@ tar -xzvf  apache-tomcat-9.0.65.tar.gz
 rm -fr  apache-tomcat-9.0.65.tar.gz
 mv apache-tomcat-9.0.65 tomcat9
 cd tomcat9/bin/ && ./startup.sh
+ps -ef | grep -i "tomcat"
